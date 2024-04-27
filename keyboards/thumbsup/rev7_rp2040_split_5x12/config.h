@@ -29,7 +29,7 @@
 //#undef I2C1_SDA_PIN
 //#define I2C1_SDA_PIN GP24
 
-#define EE_HANDS
+//#define EE_HANDS
 /* #define MASTER_LEFT */
 /* #define MASTER_RIGHT */
 /* #define SPLIT_HAND_PIN GP18*/
@@ -45,19 +45,19 @@
 
 //#define TAPPING_TERM 170//200 //120 //00 //90 //200 // how long before a tap becomes a hold
 
-#define MOUSEKEY_DELAY             150 //200
-#define MOUSEKEY_INTERVAL          60 //50
-#define MOUSEKEY_MAX_SPEED         5  //10
-#define MOUSEKEY_TIME_TO_MAX       7 //20
-#define MOUSEKEY_WHEEL_MAX_SPEED   5	//8
-#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
+//#define MOUSEKEY_DELAY             150 //200
+//#define MOUSEKEY_INTERVAL          60 //50
+//#define MOUSEKEY_MAX_SPEED         5  //10
+//#define MOUSEKEY_TIME_TO_MAX       7 //20
+//#define MOUSEKEY_WHEEL_MAX_SPEED   5	//8
+//#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
  
 
-#define USB_POLLING_INTERVAL_MS 1
+//#define USB_POLLING_INTERVAL_MS 1
 
 
 //The number of layers for VIA/REMAP
-#define DYNAMIC_KEYMAP_LAYER_COUNT 10
+//#define DYNAMIC_KEYMAP_LAYER_COUNT 10
 
 //This disables the auto-repeat for the double-action keys (e.g. S+LAlt)
-#define QUICK_TAP_TERM 0
+//#define QUICK_TAP_TERM 0
