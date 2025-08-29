@@ -1,5 +1,6 @@
 /*
-Copyright 2019 Bubnick
+
+Copyright 2024 Alexander (Sasha) Karmanov (ak66666)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -18,20 +19,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+//Cirque ProGlide Touchpad configuration
+#define POINTING_DEVICE_ROTATION_90
+#define CIRQUE_PINNACLE_TAP_ENABLE
+#define CIRQUE_PINNACLE_SECONDARY_TAP_ENABLE
+#define POINTING_DEVICE_GESTURES_SCROLL_ENABLE
 
-/* Set 0 if debouncing isn't needed */
-#define DEBOUNCE 5
-
-//The number of layers for VIA/REMAP
-#define DYNAMIC_KEYMAP_LAYER_COUNT 6
-
-//This disables the auto-repeat for the double-action keys (e.g. S+LAlt)
-#define QUICK_TAP_TERM 0
-
-#define MOUSEKEY_DELAY             150 //200
-#define MOUSEKEY_INTERVAL          60 //50
-#define MOUSEKEY_MAX_SPEED         5  //10
-#define MOUSEKEY_TIME_TO_MAX       7 //20
-#define MOUSEKEY_WHEEL_MAX_SPEED   5	//8
-#define MOUSEKEY_WHEEL_TIME_TO_MAX 40
-
+#define CIRQUE_PINNACLE_POSITION_MODE CIRQUE_PINNACLE_ABSOLUTE_MODE
